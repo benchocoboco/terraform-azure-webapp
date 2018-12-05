@@ -16,7 +16,7 @@ namespace AcrHelloworld.Controllers
             {
                 var registryURL = Environment.GetEnvironmentVariable("DOCKER_REGISTRY");
                 ViewData["REGISTRYURL"] = registryURL;
-                if (registryURL != "<acrName>.azurecr.io")
+                if (registryURL != "<acrName>.azurecontainer.io")
                 {
                     var hostEntry = await System.Net.Dns.GetHostEntryAsync(registryURL);
                     ViewData["HOSTENTRY"] = hostEntry.HostName;
