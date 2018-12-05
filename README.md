@@ -4,6 +4,7 @@ This sample is a very simple Asp.net Core application used to demonstrate Azure 
 
 ## Features
 
+
 This project framework provides the following features:
 
 * A map highlighting the source region of the Azure Container Registry
