@@ -15,13 +15,14 @@ namespace AcrHelloworld.Controllers
             try
             {
                 var registryURL = Environment.GetEnvironmentVariable("DOCKER_REGISTRY");
+                var regionvar = Environment.GetEnvironmentVariable("REGION_NAME");
                 ViewData["REGISTRYURL"] = registryURL;
                 if (registryURL != "<acrName>.azurecontainer.io")
                 {
                     var hostEntry = await System.Net.Dns.GetHostEntryAsync(registryURL);
                     ViewData["HOSTENTRY"] = hostEntry.HostName;
 
-                    string region = hostEntry.HostName.Split('.')[1];
+                    string region = regionvar;
                     ViewData["REGION"] = region;
 
                     var registryIp = System.Net.Dns.GetHostAddresses(registryURL)[0].ToString();
