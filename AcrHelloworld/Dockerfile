@@ -1,7 +1,7 @@
 FROM microsoft/aspnetcore:2.0 AS base
 # Update <acrName> with the name of your registry
 # Example: uniqueregistryname.azurecr.io
-ENV DOCKER_REGISTRY zuuozbmycontregis01.azurecr.io
+ENV DOCKER_REGISTRY containerregisternewlode.azurecr.io
 WORKDIR /app
 EXPOSE 80
 
