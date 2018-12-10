@@ -1,0 +1,117 @@
+BODY {
+	MARGIN: 0px; FONT-FAMILY: Verdana, Arial
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 28px; COLOR: #b4181e
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #fdb913
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #fdb913
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #fdb913
+}
+P {
+	FONT-SIZE: 8pt
+}
+LI {
+	FONT-SIZE: 8pt
+}
+TD {
+	FONT-SIZE: 8pt
+}
+SELECT {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial
+}
+TEXTAREA {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial
+}
+A {
+	COLOR: #b4181e
+}
+A:hover {
+	COLOR: #ff0000
+}
+.Menu A {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; COLOR: #ffffff; PADDING-TOP: 3px; HEIGHT: 16px; TEXT-DECORATION: none
+}
+.BandeauTitre {
+	FONT-WEIGHT: bold; FONT-SIZE: 28px; COLOR: #b4181e
+}
+.Menu A:visited {
+	COLOR: #ffffff
+}
+.Menu A:hover {
+	COLOR: #ff0000
+}
+.MenuFond {
+	BACKGROUND-COLOR: #B4181E
+}
+.ProvFondNormal {
+	BACKGROUND-COLOR: #FFFFFF
+}
+.ProvFondJour {
+	BACKGROUND-COLOR: #B4181E
+}
+.ProvTitre {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #fdb913
+}
+.ProvDescriptionNormal {
+	FONT-SIZE: 8pt; COLOR: #000000
+}
+.ProvDescriptionJour {
+	FONT-SIZE: 8pt; color: #FFFFFF
+}
+.ProvContribNormal {
+	FONT-SIZE: 8pt; COLOR: red
+}
+.ProvContribNormal A {
+	FONT-SIZE: 8pt; COLOR: red; text-decoration: none
+}
+.ProvContribNormal A:visited {
+	FONT-SIZE: 8pt; COLOR: red; text-decoration: none
+}
+.ProvContribNormal A:hover {
+	FONT-SIZE: 8pt; COLOR: red; text-decoration: underline
+}
+.ProvContribJour {
+	FONT-SIZE: 8pt; COLOR: black
+}
+.ProvContribJour A {
+	FONT-SIZE: 8pt; COLOR: black; text-decoration: none
+}
+.ProvContribJour A:visited {
+	FONT-SIZE: 8pt; COLOR: black; text-decoration: none
+}
+.ProvContribJour A:hover {
+	FONT-SIZE: 8pt; COLOR: black; text-decoration: underline
+}
+.DerniereMAJ {
+	FONT-SIZE: 8pt; COLOR: #b4181e
+}
+.Gauche {
+	BACKGROUND-COLOR: #fd8081
+}
+.Obligatoire {
+	COLOR: #cc0033
+}
+.Erreur {
+	COLOR: #ff0000
+}
+.ThemeLink {
+	FONT-SIZE: 8pt; COLOR: white; text-decoration: none; FONT-WEIGHT: bold
+}
+.ThemeLink A {
+	FONT-SIZE: 8pt; COLOR: #b4181e; text-decoration: underline; FONT-WEIGHT: bold
+}
+.ThemeLink A:visited {
+	FONT-SIZE: 8pt; COLOR: #b4181e; text-decoration: underline; FONT-WEIGHT: bold
+}
+.ThemeLink A:hover {
+	FONT-SIZE: 8pt; COLOR: #b4181e; text-decoration: none; FONT-WEIGHT: bold
+}
+.ThemeLinkCurrent {
+	FONT-SIZE: 8pt; COLOR: #b4181e
+}

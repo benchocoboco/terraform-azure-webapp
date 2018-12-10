@@ -1,0 +1,551 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{967783F7-8EB7-41E0-922C-BBEE8EB915E8}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Proverbes"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Proverbes"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "ISmtpMail"
+                    Project = "{928E0C41-3D8F-4C17-B493-B4B01AB1B181}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Accueil.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Accueil.aspx.cs"
+                    DependentUpon = "Accueil.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Accueil.aspx.resx"
+                    DependentUpon = "Accueil.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Contribuer.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Contribuer.aspx.cs"
+                    DependentUpon = "Contribuer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Contribuer.aspx.resx"
+                    DependentUpon = "Contribuer.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Download.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Download.aspx.cs"
+                    DependentUpon = "Download.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Download.aspx.resx"
+                    DependentUpon = "Download.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DownloadRequest.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DownloadRequest.aspx.cs"
+                    DependentUpon = "DownloadRequest.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DownloadRequest.aspx.resx"
+                    DependentUpon = "DownloadRequest.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FAQ.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FAQ.aspx.cs"
+                    DependentUpon = "FAQ.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FAQ.aspx.resx"
+                    DependentUpon = "FAQ.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Liens.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Liens.aspx.cs"
+                    DependentUpon = "Liens.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Liens.aspx.resx"
+                    DependentUpon = "Liens.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ListProverbe.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ListProverbe.aspx.cs"
+                    DependentUpon = "ListProverbe.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ListProverbe.aspx.resx"
+                    DependentUpon = "ListProverbe.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MerciContrib.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MerciContrib.aspx.cs"
+                    DependentUpon = "MerciContrib.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MerciContrib.aspx.resx"
+                    DependentUpon = "MerciContrib.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MerciDownload.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MerciDownload.aspx.cs"
+                    DependentUpon = "MerciDownload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MerciDownload.aspx.resx"
+                    DependentUpon = "MerciDownload.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "proverbes_styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Rss.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Rss.aspx.cs"
+                    DependentUpon = "Rss.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Rss.aspx.resx"
+                    DependentUpon = "Rss.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Test.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Test.aspx.cs"
+                    DependentUpon = "Test.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Test.aspx.resx"
+                    DependentUpon = "Test.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controles\Bandeau.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controles\Bandeau.ascx.cs"
+                    DependentUpon = "Bandeau.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controles\Bandeau.ascx.resx"
+                    DependentUpon = "Bandeau.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controles\Compteur.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controles\Compteur.ascx.cs"
+                    DependentUpon = "Compteur.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controles\Compteur.ascx.resx"
+                    DependentUpon = "Compteur.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controles\DetailProverbe.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controles\DetailProverbe.ascx.cs"
+                    DependentUpon = "DetailProverbe.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controles\DetailProverbe.ascx.resx"
+                    DependentUpon = "DetailProverbe.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controles\Menu.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controles\Menu.ascx.cs"
+                    DependentUpon = "Menu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controles\Menu.ascx.resx"
+                    DependentUpon = "Menu.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controles\Themes.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controles\Themes.ascx.cs"
+                    DependentUpon = "Themes.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controles\Themes.ascx.resx"
+                    DependentUpon = "Themes.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\carreaux_petit.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\francparler.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr0.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr5.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr6.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr7.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr8.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\nmbr9.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\poivrons jaunes.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\xml.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web References\WebServiceCompteur\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\WebServiceCompteur\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\WebServiceCompteur\ServiceCompteur.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\WebServiceCompteur\ServiceCompteur.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\WebServiceCompteur\"
+                    WebReferenceUrl = "http://localhost/ServicesProverbes/ServiceCompteur.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\WebServiceDownload\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\WebServiceDownload\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\WebServiceDownload\ServiceDownload.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\WebServiceDownload\ServiceDownload.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\WebServiceDownload\"
+                    WebReferenceUrl = "http://localhost/ServicesProverbes/ServiceDownload.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\WebServiceProverbes\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\WebServiceProverbes\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\WebServiceProverbes\ServiceProverbes.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\WebServiceProverbes\ServiceProverbes.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\WebServiceProverbes\"
+                    WebReferenceUrl = "http://localhost/ServicesProverbes/ServiceProverbes.asmx"
+                    UrlBehavior = "Static"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesProverbes", "http://localhost/ServicesProverbes/ServicesProverbes.csproj", "{BF6DA873-CD5C-4559-B305-3323810216BD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISmtpMail", "ISmtp\ISmtpMail\ISmtpMail.csproj", "{928E0C41-3D8F-4C17-B493-B4B01AB1B181}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISmtpSql", "ISmtp\ISmtpSql\ISmtpSql.csproj", "{3B3D82CC-0925-42B8-B849-A3785CC547D0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISmtpFramework", "ISmtp\ISmtpFramework\ISmtpFramework.csproj", "{C4481434-F0E5-4839-8362-4D383C48AFCE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISmtpDotNet", "ISmtp\ISmtpDotNet\ISmtpDotNet.csproj", "{C1A5AF3E-40D6-4130-9D4B-70A2CBCD4953}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverbes", "Proverbes\Proverbes.csproj", "{967783F7-8EB7-41E0-922C-BBEE8EB915E8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BF6DA873-CD5C-4559-B305-3323810216BD}.Debug.ActiveCfg = Debug|.NET
+		{BF6DA873-CD5C-4559-B305-3323810216BD}.Debug.Build.0 = Debug|.NET
+		{BF6DA873-CD5C-4559-B305-3323810216BD}.Release.ActiveCfg = Release|.NET
+		{BF6DA873-CD5C-4559-B305-3323810216BD}.Release.Build.0 = Release|.NET
+		{928E0C41-3D8F-4C17-B493-B4B01AB1B181}.Debug.ActiveCfg = Debug|.NET
+		{928E0C41-3D8F-4C17-B493-B4B01AB1B181}.Debug.Build.0 = Debug|.NET
+		{928E0C41-3D8F-4C17-B493-B4B01AB1B181}.Release.ActiveCfg = Release|.NET
+		{928E0C41-3D8F-4C17-B493-B4B01AB1B181}.Release.Build.0 = Release|.NET
+		{3B3D82CC-0925-42B8-B849-A3785CC547D0}.Debug.ActiveCfg = Debug|.NET
+		{3B3D82CC-0925-42B8-B849-A3785CC547D0}.Debug.Build.0 = Debug|.NET
+		{3B3D82CC-0925-42B8-B849-A3785CC547D0}.Release.ActiveCfg = Release|.NET
+		{3B3D82CC-0925-42B8-B849-A3785CC547D0}.Release.Build.0 = Release|.NET
+		{C4481434-F0E5-4839-8362-4D383C48AFCE}.Debug.ActiveCfg = Debug|.NET
+		{C4481434-F0E5-4839-8362-4D383C48AFCE}.Debug.Build.0 = Debug|.NET
+		{C4481434-F0E5-4839-8362-4D383C48AFCE}.Release.ActiveCfg = Release|.NET
+		{C4481434-F0E5-4839-8362-4D383C48AFCE}.Release.Build.0 = Release|.NET
+		{C1A5AF3E-40D6-4130-9D4B-70A2CBCD4953}.Debug.ActiveCfg = Debug|.NET
+		{C1A5AF3E-40D6-4130-9D4B-70A2CBCD4953}.Debug.Build.0 = Debug|.NET
+		{C1A5AF3E-40D6-4130-9D4B-70A2CBCD4953}.Release.ActiveCfg = Release|.NET
+		{C1A5AF3E-40D6-4130-9D4B-70A2CBCD4953}.Release.Build.0 = Release|.NET
+		{967783F7-8EB7-41E0-922C-BBEE8EB915E8}.Debug.ActiveCfg = Debug|.NET
+		{967783F7-8EB7-41E0-922C-BBEE8EB915E8}.Debug.Build.0 = Debug|.NET
+		{967783F7-8EB7-41E0-922C-BBEE8EB915E8}.Release.ActiveCfg = Release|.NET
+		{967783F7-8EB7-41E0-922C-BBEE8EB915E8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
