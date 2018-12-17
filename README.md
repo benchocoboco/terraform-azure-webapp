@@ -8,6 +8,7 @@ This project framework provides the following features:
 
 * A map highlighting the source region of the Azure Container Registry
 
+
 ### Quickstart
 
 1. `git clone https://github.com/Azure-Samples/acr-helloworld.git`
